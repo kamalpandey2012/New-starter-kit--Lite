@@ -1,0 +1,12 @@
+{
+  "env": {
+    "development": {
+      "presets": [
+        "env",
+        "react",
+        "react-hmre",
+        "stage-1"
+      ]
+    }
+}
+}
