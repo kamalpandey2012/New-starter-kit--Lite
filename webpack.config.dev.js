@@ -6,8 +6,8 @@ import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 export default {
   mode: 'development',
-  resolve:{
-extensions:['*', '.js', '.json']
+  resolve: {
+    extensions: ['*', '.js', '.json']
   },
   devtool: 'cheap-module-eval-source-map',
   entry: [

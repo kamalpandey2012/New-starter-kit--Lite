@@ -1,0 +1,41 @@
+.sidebar{
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+}
+.sidebar .icon-list{
+  display: flex;
+  flex-direction: row;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.sidebar .icon-list li{
+  font-size: calc(var(--dim-sidebar-font-size) + .5vw);
+  flex-grow: 1;
+  text-align: center;
+  align-content: center;
+}
+
+.sidebar .icon-list li a{
+  color: var(--color-text-primary);
+  transition: color 200ms ease-in-out;
+}
+
+.sidebar-container .side-menu{
+ position: absolute;
+ display: none;
+ top: 4.5rem;
+ left: 4rem;
+ color: var(--text-primary);
+ min-width: 8rem;
+}
+
+.sidebar-container .side-menu li{
+  padding: .75rem;
+}
+
+.sidebar-container .side-menu li a{
+  color: var(--text-primary);
+  transition: color 200ms ease-in-out;
+}
